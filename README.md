@@ -1,5 +1,9 @@
 # activeadmin_calendar
 
+![CI](https://github.com/activeadmin-plugins/activeadmin_calendar/workflows/CI/badge.svg)
+![Coverage](https://img.shields.io/endpoint?url=https://activeadmin-plugins.github.io/activeadmin_calendar/badge.json)
+![Ruby](https://img.shields.io/badge/ruby-3.3%2B-blue)
+
 Adds `index as: :calendar` to ActiveAdmin — renders the resource list as a
 month grid with one cell per day. The index block is yielded
 `(date, records_for_that_day)`.
