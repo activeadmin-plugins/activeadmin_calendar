@@ -1,0 +1,14 @@
+/.bundle/
+/Gemfile.lock
+/gemfiles/*.lock
+/pkg/
+/spec/.rspec-results
+/spec/dummy/db/*.sqlite3
+/spec/dummy/log/*.log
+/spec/dummy/tmp/
+/spec/dummy/storage/
+# Auto-compiled by spec/support/tailwind_setup.rb when AA 4 is loaded.
+/spec/dummy/app/assets/stylesheets/active_admin.css
+/coverage/
+*.gem
+.byebug_history

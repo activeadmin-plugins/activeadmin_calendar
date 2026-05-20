@@ -1,0 +1,6 @@
+// AA 3.5 standard + calendar gem stylesheet
+@import "active_admin/mixins";
+@import "active_admin/base";
+
+// Bundled with our gem (lib/../app/assets/stylesheets/activeadmin_calendar.css)
+@import "activeadmin_calendar";
