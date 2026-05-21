@@ -1,6 +1,6 @@
 {
   "name": "@activeadmin-plugins/activeadmin_calendar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calendar index style for ActiveAdmin — CSS for the gem of the same name.",
   "style": "src/activeadmin_calendar.css",
   "main": "src/activeadmin_calendar.css",
