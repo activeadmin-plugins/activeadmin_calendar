@@ -1,0 +1,29 @@
+{
+  "name": "@activeadmin-plugins/activeadmin_calendar",
+  "version": "1.0.0",
+  "description": "Calendar index style for ActiveAdmin — CSS for the gem of the same name.",
+  "style": "src/activeadmin_calendar.css",
+  "main": "src/activeadmin_calendar.css",
+  "author": "Igor Fedoronchuk <fedoronchuk@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/activeadmin-plugins/activeadmin_calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/activeadmin-plugins/activeadmin_calendar/issues"
+  },
+  "homepage": "https://github.com/activeadmin-plugins/activeadmin_calendar#readme",
+  "keywords": [
+    "active",
+    "admin",
+    "calendar"
+  ],
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "prepublishOnly": "rm -rf src && mkdir -p src && cp app/assets/stylesheets/activeadmin_calendar.css src/"
+  }
+}
